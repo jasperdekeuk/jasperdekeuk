@@ -1,0 +1,235 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jasper De Keukelaere
+title: Industrial Engineer 
+email: jasperdekeukelaere@msn.com
+
+# # email_title: Email (Email title override)
+phone: Leuven, Belgium
+phone_title: Location
+# website: Your website (eg. https://google.com)(optional)
+# # website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+linkedin_username: jasper-de-keukelaere
+github_username:  dubjap
+
+
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# twitter_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# # Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# # - title: another link
+# #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+# #   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/propic.png
+
+
+
+
+about_content: | # this will include new lines to allow paragraphs
+
+  ![](images/work-in-progress.png)
+
+  As a young engineer in electromechanics I started working in the field of industrial automation in January 2019.  
+  Due to my passion for new and upcoming technologies and my eager to learn, I have been combining these years of work experience with an extend of studies. 
+  Here I discovered my passion in the field of **digital twins**, **data science**, **data engineering**, **(industrial) IOT** and **development**. 
+
+
+  Having done my first customer driven projects and consultancy, I discovered that I am highly customer driven and project minded. 
+  Having the possibility to have a good ballance between working independent and strong teamwork is my favorite habitat. 
+  Love to speak different languages, so I feel very comfortable in an international team.
+
+
+  At an early age, I developed my interest in computing and programming. Starting with creating my own computer at the age of sixteen and playing around with Linux, to developing my first basic applications during my engineering studies. 
+  After one year of working in the field of industrial automation (PLC), I decided to enlarge my field of knowledge.
+  In 2020 I followed the evening class program of 'Big Data' at the University of Gent.  
+  Here I gained a first theoretical insight in the used architectures and platforms for big data solutions. This enlarged my interest in this field. 
+  After that, I enroled in a post-graduate in "Applied Artificial Intelligence" at the Erasmus Hogeschool Brussels to develop a good understanding of data science, IOT, robotics, etc. 
+  
+  I have basic coding skills but never really studies computer engineering. To sharpen this skills, I'm doing a graduate evening classes in coding at the UCLL at the moment.
+  I am very eager to learn even more in this area. 
+
+
+
+
+content:
+
+
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Siemens
+        sub_title: Application Consultant Industrial Digitalization
+        caption: 2020 - 2021
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Projects and consultancy with regards to simulation,  virtual commissioning,code generation and industrial IOT. 
+          Mainly focused on machine builders.Always involved in planning as well as technical execution as well as (technical)communication towards customers.
+          Apart from projects and consultancy also building proof of concepts with new and upcoming Siemens products.
+  
+          Occasionally giving training at the Siemens training center.(Simulation, codegeneration/ C#)
+      - layout: left
+        title: Siemens
+        sub_title: Young Graduate Trainee
+        caption: 2019 - 2020
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Cross division trainee supporting both sales and technical colleagues in areas like automation, process instrumentation and frequency drives. 
+          Always with a big focus on digitalization.
+      - layout: left
+        title: Gregoir Agriculture
+        sub_title: Seasonal work
+        caption: 2010 - 2018
+        description: |
+          All kinds of jobs on an agricultural farm.
+      - layout: left
+        title: Serres Agriculture
+        sub_title: Summer job
+        caption: 2012
+        description: |
+          Two months of summer job at a farm in Montdidier, France to improve my French.
+
+
+
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: Erasmushogeschool Brussels
+        sub_title: Postgraduate
+        caption: 2020 - 2021
+        quote: >
+          Applied Artificial Intelligence
+        description: | # this will include new lines to allow paragraphs
+           Theoretical and practical postgraduate of one year which I combined with my fulltime job. 
+           The program consisted of different modules covering topics like Data Science, IOT, Machine Learning, Robotics, etc. 
+           Every module was equally divided by a theoretic examination and a practical project.
+
+      - layout: top-left
+        title: KU Leuven, Groep T
+        sub_title: Master Industrial Engineer
+        caption: 2017 - 2018
+        quote: >
+          Electromechanics - Specialisation: Intelligent Mobility
+        description: |
+          **Thesis:** Automation of attaching/ detaching of a combine headerThe combine vehicle was programmed in Matlab to drive autonomously towardsit’s target. 
+          All aspects of autonomous vehicles (path-planning, path-following,Kalman-Filter,..) were implemented or researched in this thesis. 
+          A CAN-Bus sys-tem was used to read & write the actuators. 
+          As sensor for detecting the target,a 3D-camera was utilized. 
+          This project was in collaboration with CNH Industrial.
+      - layout: top-left
+        title: Universidad De Cantabria [ES]
+        sub_title: Bachelor Industrial Engineer
+        caption: 2016  
+        quote: >
+          Erasmus semester abroud in Spain.
+      
+      - layout: top-left
+        title: KU Leuven, Groep T
+        sub_title: Bachelor Industrial Engineer
+        caption: 2014 - 2017
+        quote: >
+          Electromechanics
+
+
+  - title: Extra Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: UCLL
+        sub_title: Graduate Coding
+        caption: 2021 - present
+        quote: >
+          evening classes
+        description: | # this will include new lines to allow paragraphs
+          Sharpening my coding skills (C#, Java, frontend, security, ...)
+      - layout: left
+        title: UGent
+        sub_title: Post-academic
+        caption: 2020
+        quote: >
+          evening classes
+        description: |
+          Theoretical approach consisiting of four modules: data management, data analyse, user aspects and GDPR
+      - layout: left
+        title: 
+
+
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Teamplayer
+      - Technical background
+      - Open minded
+      - Eager to learn
+
+
+
+# Footer
+footer_show_references: true
+references_title: Don't hesitate to contact
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
