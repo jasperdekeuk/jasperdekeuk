@@ -176,20 +176,20 @@ content:
     content:
       - layout: left
         title: UCLL
-        sub_title: Graduate Coding
+        sub_title: Graduate
         caption: 2021 - present
         quote: >
-          evening classes
+          Coding
         description: | # this will include new lines to allow paragraphs
-          Sharpening my coding skills (C#, Java, frontend, security, ...)
+          Evening classes to sharpen my coding skills (C#, Java, frontend, security, ...)
       - layout: left
         title: UGent
         sub_title: Post-academic
         caption: 2020
         quote: >
-          evening classes
+          Big Data
         description: |
-          Theoretical approach consisiting of four modules: data management, data analyse, user aspects and GDPR
+          Evening classes with a theoretical approach consisiting of four modules: data management, data analyse, user aspects and GDPR
       - layout: left
         title: 
 
