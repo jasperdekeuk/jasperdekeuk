@@ -49,7 +49,7 @@ github_username:  dubjap
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+google_analytics: "G-FCWWRNFMLE"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
