@@ -1,1 +1,1 @@
-https://jasperdekeuk.github.io/testje/#Extra-Education
+https://jasperdekeuk.github.io/testje
